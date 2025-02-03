@@ -19,6 +19,13 @@ class RekeningBank :
 
     else :
       self.tabungan -= kurang_tabungan
+
+
+rekeningsaya = RekeningBank()
+rekeningsaya.CekSaldo()
+rekeningsaya.Menabung()
+rekeningsaya.Menarik()
+
       
       
   
